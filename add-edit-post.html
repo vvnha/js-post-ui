@@ -139,7 +139,7 @@
                   <a href="https://picsum.photos">Picsum service</a> to get a random image.
                 </small>
 
-                <input type="text" name="imageUrl" class="d-none" />
+                <input type="text" name="imageUrl" class="d-none" required />
 
                 <div>
                   <button type="button" id="postChangeImage" class="btn btn-dark">
@@ -157,6 +157,7 @@
                   class="form-control"
                   id="uploadImage"
                   accept="image/*"
+                  required
                 />
                 <label class="input-group-text" for="uploadImage">Upload</label>
 
@@ -179,6 +180,6 @@
     </footer>
 
     <!-- Scripts should be placed here to prevent blocking render UI -->
-    <!-- <script type="module" src="/js/add-edit-post.js"></script> -->
+    <script type="module" src="/js/add-edit-post.js"></script>
   </body>
 </html>
